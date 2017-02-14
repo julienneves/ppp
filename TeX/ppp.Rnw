@@ -1,0 +1,83 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx,float,amssymb, amsmath,titlesec}
+\usepackage[round, sort]{natbib}
+\usepackage[french,english]{babel}
+\usepackage[doublespacing]{setspace}
+
+\DeclareMathOperator{\Corr}{Corr}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\Cov}{Cov}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\R}{\mathbb{R}}
+\DeclareMathOperator{\dist}{\mathcal{F}}
+
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textsf
+\let\code=\texttt
+
+\addcontentsline{toc}{section}{References}
+
+%Code for subsubsubsection
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+<<setup, echo=FALSE, message = FALSE, include = FALSE>>=
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=50))
+@
+
+\title{Exact Panel Data Tests of PPP}
+\author{Julien Neves \thanks{Graduate student, Department of Economics, McGill University}}
+
+\begin{document}
+\maketitle
+
+\clearpage
+\begin{abstract}
+
+\end{abstract}
+
+\clearpage
+
+
+\tableofcontents
+
+\clearpage
+
+\section{Introduction}
+
+
+\section{Model}
+
+\subsection{PPP}
+
+\subsection{Panel Unit Roots}
+
+\subsection{Maximized Monte Carlo}
+
+
+\section{Simulation study}
+\subsection{Level}
+
+
+\section{Empirical Tests}
+\subsection{Data}
+
+\subsection{Results}
+
+
+\section{Conclusion}
+
+
+\section{Conclusion}
+
+
+\clearpage
+
+\bibliography{ppp}
+
+\end{document}
