@@ -30,7 +30,7 @@ library(knitr)
 opts_chunk$set(tidy.opts=list(width.cutoff=50))
 @
 
-\title{Exact Panel Data Tests of PPP}
+\title{Testing the PPP: An Exact Test}
 \author{Julien Neves \thanks{Graduate student, Department of Economics, McGill University}}
 
 \begin{document}
@@ -49,6 +49,17 @@ opts_chunk$set(tidy.opts=list(width.cutoff=50))
 \clearpage
 
 \section{Introduction}
+
+
+Monte Carlo techniques were first introduced independently by \cite{dwass_modified_1957} and by \cite{barnard_comment_1963}; for a review, see \cite{dufour_monte_2003}. The method they proposed details a simple procedure to implement exact tests based on pivotal statistics (i.e. when the distribution does not depend on any nuisance parameters). As a matter of fact, the method only requires that the statistic can be simulated, it does not impose tractability to the distribution of statistic. 
+
+The Monte Carlo technique is akin to the parametric bootstrap in that both methods rely on simulating a fully parametric model under the null in order to make any inference. The difference lies in that the parametric bootstrap is only asymptotically justified while the Monte Carlo technique p-value corrects for finite-sample distributions. 
+
+Note that the original Monte Carlo technique, as described by \cite{dwass_modified_1957} and \cite{barnard_comment_1963}, is only valid for statistics with continuous distributions. The problem that arises is due to the possible presence of ties in the simulated values for statistics with discrete distributions. \cite{dufour_monte_2006} provides an extension of the method to circumvent this problem known as the Monte Carlo with tie-breaker technique (MC with tie-breaker). 
+
+Even though the Monte Carlo technique provides a straightforward procedure to build exact tests, one of its main shortfalls is the requirement that the finite-sample distribution of the statistic be free of any nuisance parameters. Sadly, statistics of interest in economics usually depend on some nuisance parameters. Techniques such as the bootstrap and its variants provide asymptotically valid method of inference when the distribution of the statistic is not stable. In order to retrieve exactness in tests where the finite-sample distribution of the statistic depends on some nuisance parameters, \cite{dufour_monte_2006} proposed an extension of the original Monte Carlo technique to deal with such complications also known as the Maximized Monte Carlo (MMC).
+
+Using the MMC, it is possible to retrieve exact panel unit roots tests without any reliance on asymptotic theory.
 
 
 \section{Model}
@@ -73,11 +84,11 @@ opts_chunk$set(tidy.opts=list(width.cutoff=50))
 \section{Conclusion}
 
 
-\section{Conclusion}
 
 
 \clearpage
 
+\bibliographystyle{AER}
 \bibliography{ppp}
 
 \end{document}

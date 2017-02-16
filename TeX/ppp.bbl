@@ -1,0 +1,27 @@
+\ifx\undefined\bysame
+\newcommand{\bysame}{\leavevmode\hbox to\leftmargin{\hrulefill\,\,}}
+\fi
+\begin{thebibliography}{xx}
+
+\harvarditem[Barnard]{Barnard}{1963}{barnard_comment_1963}
+{\bf Barnard, G.~A.}, ``Comment on: "{{The Spectral Analysis}} of {{Point
+  Processes}}" by {{M}}.{{S}}. {{Bartlett}},'' {\it Journal of the Royal
+  Statistical Society. Series B (Methodological)}, 1963, {\it 25} (2), 294.
+
+\harvarditem[Dufour]{Dufour}{2006}{dufour_monte_2006}
+{\bf Dufour, Jean-Marie}, ``Monte {{Carlo}} Tests with Nuisance Parameters:
+  {{A}} General Approach to Finite-Sample Inference and Nonstandard
+  Asymptotics,'' {\it Journal of Econometrics}, 2006, {\it 133} (2), 443--477.
+
+\harvarditem[Dufour and Khalaf]{Dufour and Khalaf}{2003}{dufour_monte_2003}
+{\bf \bysame{} and Lynda Khalaf}, ``Monte {{Carlo Test Methods}} in
+  {{Econometrics}},'' in Badi~H. Baltagi, ed., {\it A {{Companion}} to
+  {{Theoretical Econometrics}}}, {Blackwell Publishing Ltd}, 2003,
+  pp.~494--519.
+
+\harvarditem[Dwass]{Dwass}{1957}{dwass_modified_1957}
+{\bf Dwass, Meyer}, ``Modified {{Randomization Tests}} for {{Nonparametric
+  Hypotheses}},'' {\it The Annals of Mathematical Statistics}, March 1957, {\it
+  28} (1), 181--187.
+
+\end{thebibliography}

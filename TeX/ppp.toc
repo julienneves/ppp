@@ -1,14 +1,13 @@
 \contentsline {section}{References}{1}
 \select@language {english}
 \contentsline {section}{\numberline {1}Introduction}{4}
-\contentsline {section}{\numberline {2}Model}{4}
-\contentsline {subsection}{\numberline {2.1}PPP}{4}
-\contentsline {subsection}{\numberline {2.2}Panel Unit Roots}{4}
-\contentsline {subsection}{\numberline {2.3}Maximized Monte Carlo}{4}
-\contentsline {section}{\numberline {3}Simulation study}{4}
-\contentsline {subsection}{\numberline {3.1}Level}{4}
-\contentsline {section}{\numberline {4}Empirical Tests}{4}
-\contentsline {subsection}{\numberline {4.1}Data}{4}
-\contentsline {subsection}{\numberline {4.2}Results}{4}
-\contentsline {section}{\numberline {5}Conclusion}{4}
-\contentsline {section}{\numberline {6}Conclusion}{4}
+\contentsline {section}{\numberline {2}Model}{6}
+\contentsline {subsection}{\numberline {2.1}PPP}{6}
+\contentsline {subsection}{\numberline {2.2}Panel Unit Roots}{6}
+\contentsline {subsection}{\numberline {2.3}Maximized Monte Carlo}{6}
+\contentsline {section}{\numberline {3}Simulation study}{6}
+\contentsline {subsection}{\numberline {3.1}Level}{6}
+\contentsline {section}{\numberline {4}Empirical Tests}{6}
+\contentsline {subsection}{\numberline {4.1}Data}{6}
+\contentsline {subsection}{\numberline {4.2}Results}{6}
+\contentsline {section}{\numberline {5}Conclusion}{6}
