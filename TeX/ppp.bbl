@@ -3,10 +3,30 @@
 \fi
 \begin{thebibliography}{xx}
 
+\harvarditem[Bai]{Bai}{2004}{bai_estimating_2004}
+{\bf Bai, Jushan}, ``Estimating Cross-Section Common Stochastic Trends in
+  Nonstationary Panel Data,'' {\it Journal of Econometrics}, September 2004,
+  {\it 122} (1), 137--183.
+
 \harvarditem[Barnard]{Barnard}{1963}{barnard_comment_1963}
 {\bf Barnard, G.~A.}, ``Comment on: "{{The Spectral Analysis}} of {{Point
   Processes}}" by {{M}}.{{S}}. {{Bartlett}},'' {\it Journal of the Royal
   Statistical Society. Series B (Methodological)}, 1963, {\it 25} (2), 294.
+
+\harvarditem[Breitung]{Breitung}{2001}{breitung_local_2001}
+{\bf Breitung, J{\"o}rg}, ``The Local Power of Some Unit Root Tests for Panel
+  Data,'' in ``Nonstationary {{Panels}}, {{Panel Cointegration}}, and {{Dynamic
+  Panels}},'' Vol.~15 of {\em Advances in Econometrics}, {Emerald Group
+  Publishing Limited}, January 2001, pp.~161--177.
+
+\harvarditem[Chang]{Chang}{2002}{chang_nonlinear_2002}
+{\bf Chang, Yoosoon}, ``Nonlinear {{IV}} Unit Root Tests in Panels with
+  Cross-Sectional Dependency,'' {\it Journal of Econometrics}, October 2002,
+  {\it 110} (2), 261--292.
+
+\harvarditem[Choi]{Choi}{2001}{choi_unit_2001}
+{\bf Choi, In}, ``Unit Root Tests for Panel Data,'' {\it Journal of
+  International Money and Finance}, April 2001, {\it 20} (2), 249--272.
 
 \harvarditem[Dufour]{Dufour}{2006}{dufour_monte_2006}
 {\bf Dufour, Jean-Marie}, ``Monte {{Carlo}} Tests with Nuisance Parameters:
@@ -23,5 +43,32 @@
 {\bf Dwass, Meyer}, ``Modified {{Randomization Tests}} for {{Nonparametric
   Hypotheses}},'' {\it The Annals of Mathematical Statistics}, March 1957, {\it
   28} (1), 181--187.
+
+\harvarditem[Levin et al.]{Levin, Lin and James~Chu}{2002}{levin_unit_2002}
+{\bf Levin, Andrew, Chien-Fu Lin, and Chia-Shang~James Chu}, ``Unit Root Tests
+  in Panel Data: Asymptotic and Finite-Sample Properties,'' {\it Journal of
+  Econometrics}, May 2002, {\it 108} (1), 1--24.
+
+\harvarditem[Lyhagen]{Lyhagen}{2008}{lyhagen_why_2008}
+{\bf Lyhagen, Johan}, ``Why Not Use Standard Panel Unit Root Test for Testing
+  {{PPP}},'' {\it Economics Bulletin}, 2008, {\it 3} (26), 1--11.
+
+\harvarditem[Maddala and Wu]{Maddala and Wu}{1999}{maddala_comparative_1999}
+{\bf Maddala, G.~S. and Shaowen Wu}, ``A {{Comparative Study}} of {{Unit Root
+  Tests}} with {{Panel Data}} and a {{New Simple Test}},'' {\it Oxford Bulletin
+  of Economics and Statistics}, November 1999, {\it 61} (S1), 631--652.
+
+\harvarditem[Moon and Perron]{Moon and Perron}{2004}{moon_testing_2004}
+{\bf Moon, Hyungsik~Roger and Benoit Perron}, ``Testing for a Unit Root in
+  Panels with Dynamic Factors,'' {\it Journal of Econometrics}, September 2004,
+  {\it 122} (1), 81--126.
+
+\harvarditem[O'Connell]{O'Connell}{1998}{oconnell_overvaluation_1998}
+{\bf O'Connell, Paul G.~J.}, ``The Overvaluation of Purchasing Power Parity,''
+  {\it Journal of International Economics}, February 1998, {\it 44} (1), 1--19.
+
+\harvarditem[Wagner]{Wagner}{2008}{Wagner2008}
+{\bf Wagner, Martin}, ``On {{PPP}}, Unit Roots and Panels,'' {\it Empirical
+  Economics}, 2008, {\it 35} (2), 229--249.
 
 \end{thebibliography}

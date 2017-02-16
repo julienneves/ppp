@@ -83,25 +83,31 @@
 \begin{document}
 \maketitle
 
-\clearpage
-\begin{abstract}
-
-\end{abstract}
-
-\clearpage
-
-
-\tableofcontents
-
-\clearpage
-
 \section{Introduction}
 
-The law of one price states that if the price of one goods should be equal across countries when controlling for the nominal exchange rate. This notion when extended to a basket of good instead of a single good is known as the absolute version of the Purchase Power Parity (PPP). Note that to tackle the PPP it is easier to deal with real exchange rate. If we let $E_{it}$ be the nominal exchange rate of country $i$ and $P_{it}$ the price level in country $i$, then the real exchange rate is defined as
+The law of one price states that the price of one goods should be equal across countries when controlling for the nominal exchange rate. This notion when extended to a basket of good instead of a single good is known as the absolute version of the Purchasing Power Parity (PPP). Note that to tackle the PPP it is easier to deal with real exchange rate. If we let $E_{it}$ be the nominal exchange rate of country $i$ and $P_{it}$ the price level in country $i$, then the real exchange rate is defined as
 \begin{align}
 	Q_{it} & = \frac{E_{it}P_{it}}{P^*_t}
 \end{align}
-where $P^*_t$ is the base country price level at time $t$. Then, if the absolute version of the PPP holds, we have that $Q_{it}=1$. This is rather unlikely to hold as there inherent differences between countries, such as market imperfection or impediments to trade, that would prevent $Q_{it}$ to be exactly equal to one everywhere.
+where $P^*_t$ is the base country price level at time $t$. Then, if the absolute version of the PPP holds, we have that $Q_{it}=1$. This is rather unlikely to hold as there inherent differences between countries, such as market imperfection or impediments to trade, that would prevent $Q_{it}$ to be exactly equal to one $\forall i,t$.
+
+In order to test a weaker version of the PPP it is useful to write the exchange rate in terms of log
+\begin{align}
+	q_{it} & = e_{it} + p_{it} -p^*_t
+\end{align}
+where $x_{it}=\log{X_{it}}$. Then, the relative PPP can be stated in the following way: any change in the relative price levels $p_{it} - p^*_t$ should be matched with an opposite change in $e_{it}$. Hence, if $q_{it}$ is stationary, we can say that the relative PPP holds.
+
+The simplest way to test the relative PPP is to test for the presence of an unit root using the Augmented Dickey-Fuller (ADF) for every country individually. Using the ADF, most researchers failed to reject the null of a the presence of an unit root (i.e. failed to accept the alternative of the PPP holding). Some attributed the low rejection rate to the power of the ADF tests.
+
+One way to increase the power of the tests for the PPP is to use an panel framework to test for the presence of unit roots. Depending on their treatment of cross-sectional correlations, panel unit root tests can be classified into two categories: first generation and second generation.
+
+
+% First Gen
+First generation panel unit roots tests depend heavily on the assumption that that observations are cross-sectionally independent. Different tests developed by \cite{breitung_local_2001}, \cite{levin_unit_2002} and \cite{maddala_comparative_1999} can be classified as first-generation. Sadly the criticals values for theses tests are highly distorted if there is the presence of cross-sectional dependence as first shown by \cite{oconnell_overvaluation_1998}. In fact, \cite{lyhagen_why_2008} shows that the empirical level of first generation tends to with increasing cross-sectional dimension.
+
+% Second Gen
+
+Second generation panel unit roots address the issue of cross-sectional dependence. These tests are described in \cite{bai_estimating_2004}, \cite{chang_nonlinear_2002}, \cite{choi_unit_2001} and \cite{moon_testing_2004}. Even though these methods are an improvement on the first generation, there's still some shortcomings such as the reliance on asymptotic theory and the fact that they only allow for correlation in the stationary component of the of DGP \cite{Wagner2008}. One possible fix to this problem is to use simulation methods such as the Monte Carlo techniques.
 
 
 Monte Carlo techniques were first introduced independently by \cite{dwass_modified_1957} and by \cite{barnard_comment_1963}; for a review, see \cite{dufour_monte_2003}. The method they proposed details a simple procedure to implement exact tests based on pivotal statistics (i.e. when the distribution does not depend on any nuisance parameters). As a matter of fact, the method only requires that the statistic can be simulated, it does not impose tractability to the distribution of statistic. 
@@ -112,35 +118,37 @@ Note that the original Monte Carlo technique, as described by \cite{dwass_modifi
 
 Even though the Monte Carlo technique provides a straightforward procedure to build exact tests, one of its main shortfalls is the requirement that the finite-sample distribution of the statistic be free of any nuisance parameters. Sadly, statistics of interest in economics usually depend on some nuisance parameters. Techniques such as the bootstrap and its variants provide asymptotically valid method of inference when the distribution of the statistic is not stable. In order to retrieve exactness in tests where the finite-sample distribution of the statistic depends on some nuisance parameters, \cite{dufour_monte_2006} proposed an extension of the original Monte Carlo technique to deal with such complications also known as the Maximized Monte Carlo (MMC).
 
-Using the MMC, it is possible to retrieve exact panel unit roots tests without any reliance on asymptotic theory.
+Using the MMC, it is possible to retrieve exact panel unit roots tests without any reliance on asymptotic theory and to include correlation in the non-stationary components of the DGP.
+
+For our empirical study, we will use quarterly data for the CPI-based real exchange rates, from the IMF's International Financial Statistics. The data will cover countries from the G7 spanning the period 2000Q1-2015Q4.
 
 
-\section{Model}
-
-\subsection{PPP}
-
-\subsection{Panel Unit Roots}
-
-\subsection{Maximized Monte Carlo}
-
-
-\section{Simulation study}
-\subsection{Level}
-
-
-\section{Empirical Tests}
-\subsection{Data}
-
-\subsection{Results}
-
-
-\section{Conclusion}
+%\section{Model}
+%
+%\subsection{PPP}
+%
+%\subsection{Panel Unit Roots}
+%
+%\subsection{Maximized Monte Carlo}
+%
+%
+%\section{Simulation study}
+%\subsection{Level}
+%
+%
+%\section{Empirical Tests}
+%\subsection{Data}
+%
+%\subsection{Results}
+%
+%
+%\section{Conclusion}
 
 
 
 
 \clearpage
-
+\singlespacing
 \bibliographystyle{AER}
 \bibliography{ppp}
 
