@@ -97,6 +97,12 @@
 
 \section{Introduction}
 
+The law of one price states that if the price of one goods should be equal across countries when controlling for the nominal exchange rate. This notion when extended to a basket of good instead of a single good is known as the absolute version of the Purchase Power Parity (PPP). Note that to tackle the PPP it is easier to deal with real exchange rate. If we let $E_{it}$ be the nominal exchange rate of country $i$ and $P_{it}$ the price level in country $i$, then the real exchange rate is defined as
+\begin{align}
+	Q_{it} & = \frac{E_{it}P_{it}}{P^*_t}
+\end{align}
+where $P^*_t$ is the base country price level at time $t$. Then, if the absolute version of the PPP holds, we have that $Q_{it}=1$. This is rather unlikely to hold as there inherent differences between countries, such as market imperfection or impediments to trade, that would prevent $Q_{it}$ to be exactly equal to one everywhere.
+
 
 Monte Carlo techniques were first introduced independently by \cite{dwass_modified_1957} and by \cite{barnard_comment_1963}; for a review, see \cite{dufour_monte_2003}. The method they proposed details a simple procedure to implement exact tests based on pivotal statistics (i.e. when the distribution does not depend on any nuisance parameters). As a matter of fact, the method only requires that the statistic can be simulated, it does not impose tractability to the distribution of statistic. 
 
