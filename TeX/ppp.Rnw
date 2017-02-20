@@ -99,7 +99,6 @@ For our empirical study, we will use quarterly data for the CPI-based real excha
 
 
 
-
 \clearpage
 \singlespacing
 \bibliographystyle{AER}
